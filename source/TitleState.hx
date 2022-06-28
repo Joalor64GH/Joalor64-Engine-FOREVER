@@ -385,7 +385,7 @@ class TitleState extends MusicBeatState
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = ClientPrefs.globalAntialiasing;
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Psych Forever \"Spirit Engine\" v4.1.1 (PE 0.5.2)", 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 24, 0, "Joalor64 Engine Forever v1.0.0-git (PFE 4.1.1)", 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
@@ -600,10 +600,10 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					createCoolText(['Psych Forever Engine by'], 15);
+					createCoolText(['Joalor64 Engine Forever by'], 15);
 				// credTextShit.visible = true;
 				case 3:
-					addMoreText('This guy below lmao', 15);
+					addMoreText('This guy lmao', 15);
 				//	addMoreText('FinnYoung', 15);
 					ngSpr.visible = true;
 				// credTextShit.text += '\npresent...';
@@ -617,9 +617,9 @@ class TitleState extends MusicBeatState
 				case 5:
 					createCoolText(['Psych Engine by'], 15);
 				case 7:
-					addMoreText('Shadow Mario', 15);
+					addMoreText('ShadowMario', 15);
 					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('Yoshubs', 15);
 				// credTextShit.text += '\nNewgrounds';
 				case 8:
 					deleteCoolText();
@@ -640,13 +640,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 13:
-					addMoreText('Friday');
+					addMoreText('Friday Night Funkin');
 				// credTextShit.visible = true;
 				case 14:
-					addMoreText('Night');
+					addMoreText('Joalor64 Engine');
 				// credTextShit.text += '\nNight';
 				case 15:
-					addMoreText('Funkin\''); // credTextShit.text += '\nFunkin';
+					addMoreText('FOREVER'); // credTextShit.text += '\nFunkin';
 
 				case 16:
 					skipIntro();
